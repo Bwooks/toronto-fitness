@@ -12,22 +12,24 @@ export default class HomeMain extends React.Component{
     render(){
         return (
             <Row>
-                <Col md={6} xs={12} className="mainSection section-videos">
-                    <div>
+                <section className="mainSection">
+                    <Col md={6} xs={12} className="section-videos">
+                        <div>
 
-                    </div>
-                    <div>
+                        </div>
+                        <div>
 
-                    </div>
-                    <div>
+                        </div>
+                        <div>
 
-                    </div>
-                </Col>
-                <Col md={6} xs={12} className="mainSection section-descriptions">
-                    <div>
+                        </div>
+                    </Col>
+                    <Col md={6} xs={12} className="section-descriptions">
+                        <div>
 
-                    </div>
-                </Col>
+                        </div>
+                    </Col>
+                </section>
             </Row>
         )
     }

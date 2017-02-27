@@ -4,7 +4,7 @@
 const http = require("http");
 const express = require("express");
 const path = require("path");
-const PORT = process.env.NODE || 8080;
+const PORT = process.env.PORT || 8080;
 const INDEX = path.join(__dirname,"src","index.html");
 const ROOT = path.join(__dirname,"src");
 const app = express();
