@@ -10,13 +10,18 @@ export default class HomeHeader extends React.Component{
 
     render(){
         return (
-            <Row className="show-grid">
-                <Col xs={12}>
-                <Jumbotron>
+            <Row>
+                <Col className="homeHeader" xs={12}>
+                    <Col xs={12} md={6} className="headerSection">
+                        <div>
 
-                    <div className="headerSection"></div>
-                    <div className="headerSection"></div>
-                </Jumbotron>
+                        </div>
+                    </Col>
+                    <Col xs={12} md={6} className="headerSection">
+                        <div>
+
+                        </div>
+                    </Col>
                 </Col>
             </Row>
         )

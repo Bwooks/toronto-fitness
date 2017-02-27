@@ -11,9 +11,23 @@ export default class HomeMain extends React.Component{
 
     render(){
         return (
-            <Row className="show-grid">
-                <Col md={6} mdPush={6}><code>&lt;{'Col md={6} mdPush={6}'} /&gt;</code></Col>
-                <Col md={6} mdPull={6}><code>&lt;{'Col md={6} mdPull={6}'} /&gt;</code></Col>
+            <Row>
+                <Col md={6} xs={12} className="mainSection section-videos">
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </Col>
+                <Col md={6} xs={12} className="mainSection section-descriptions">
+                    <div>
+
+                    </div>
+                </Col>
             </Row>
         )
     }

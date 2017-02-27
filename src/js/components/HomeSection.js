@@ -2,7 +2,7 @@
  * Created by Owner on 2/25/2017.
  */
 import React from "react";
-import {Row,Col} from "react-bootstrap";
+import {Carousel} from "react-bootstrap";
 
 export default class HomeSection extends React.Component{
     constructor(props){
@@ -10,11 +10,31 @@ export default class HomeSection extends React.Component{
     }
 
     render(){
+        const carousel = require("file-loader?[name].[ext]!../../assets/media/carousel.jpg");
         return (
-            <Row className="show-grid">
-                <Col xs={12} md={8}><code>&lt;{'Col xs={12} md={8}'} /&gt;</code></Col>
-                <Col xs={6} md={4}><code>&lt;{'Col xs={6} md={4}'} /&gt;</code></Col>
-            </Row>
+            <Carousel controls={false}>
+                <Carousel.Item>
+                    <img width={500} height={500} alt="900x500" src={carousel}/>
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img width={500} height={500} alt="900x500" src={carousel}/>
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img width={500} height={500} alt="900x500" src={carousel}/>
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         );
     }
 }
