@@ -11,14 +11,14 @@ export default class Footer extends React.Component{
     render(){
         return (
             <Row>
-                <Col xs={12} md={6}>
-                    <section className="footerSection">
+                <Col xs={12} md={6} className="footerSection">
+                    <div>
 
-                    </section>
+                    </div>
                 </Col>
                 <Col xs={12} md={6}>
-                    <section className="footerSection">
-                    </section>
+                    <div>
+                    </div>
                 </Col>
             </Row>
         );

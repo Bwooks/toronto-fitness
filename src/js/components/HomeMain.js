@@ -12,8 +12,8 @@ export default class HomeMain extends React.Component{
     render(){
         return (
             <Row>
-                <section className="mainSection">
-                    <Col md={6} xs={12} className="section-videos">
+                <section>
+                    <Col md={6} xs={12} className="mainSection section-videos">
                         <div>
 
                         </div>
@@ -24,7 +24,7 @@ export default class HomeMain extends React.Component{
 
                         </div>
                     </Col>
-                    <Col md={6} xs={12} className="section-descriptions">
+                    <Col md={6} xs={12} className="mainSection section-descriptions">
                         <div>
 
                         </div>
