@@ -25,16 +25,16 @@ export default class HomeHeader extends React.Component{
                         <div className="headerDescription">
                             <ul>
                                 <li>
-                                    <h3>How</h3>
-                                    <p>Weightlifting, also called Olympic weightlifting, is an athletic discipline in the modern Olympic programme in which the athlete attempts a maximum-</p>
+                                    <h3>Describe Your Services</h3>
+                                    <p>Tell clients what you do, where you do it, and how much it costs.</p>
                                 </li>
                                 <li>
-                                    <h3>It</h3>
-                                    <p>Weightlifting, also called Olympic weightlifting, is an athletic discipline in the modern Olympic programme in which the athlete attempts a maximum-.</p>
+                                    <h3>Record a Video</h3>
+                                    <p>Record a profile and let your personality shine (cause baby you’re a firework).</p>
                                 </li>
                                 <li>
-                                    <h3>Works</h3>
-                                    <p>Weightlifting, also called Olympic weightlifting, is an athletic discipline in the modern Olympic programme in which the athlete attempts a maximum-</p>
+                                    <h3>Receive Your Link</h3>
+                                    <p>Immediately receive a link and share it on Facebook, LinkedIn or Twitter.</p>
                                 </li>
                                 <li>
                                     <Button bsStyle="info">Learn more</Button>

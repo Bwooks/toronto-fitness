@@ -1,5 +1,5 @@
 /**
- * Created by Owner on 2/25/2017.
+ * Created by Brooks on 2/25/2017.
  */
 import React from "react";
 import Home from "./Home";
